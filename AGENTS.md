@@ -10,6 +10,13 @@ Partners and donors (Chambers, hotels, retirement communities, individuals). Als
 - Sibling catalog: [ratpackevents.com](https://www.ratpackevents.com) (`../deano`)
 - Full cast: [deanoholics.com](https://www.deanoholics.com) (`../deanoholics`)
 
+## Email
+
+- Public contact: `info@goldenyearsexpress.org` (site `ProtectedEmail`)
+- Forwards via **ImprovMX** → `RatPackevents@yahoo.com`
+- DNS (Vercel): MX `mx1`/`mx2.improvmx.com` + SPF `include:spf.improvmx.com`
+- Account/credentials (host only): `~/.local/credentials/improvmx`
+
 ## Assets
 
 - Poster: `public/images/poster-golden-years-express.jpg` (from Deano Drive `IMG_4430.JPG`)

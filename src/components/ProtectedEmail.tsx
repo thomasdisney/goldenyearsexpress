@@ -3,8 +3,8 @@
 import { useEffect, useState } from "react";
 
 /** Split so the full address never appears as one string in the HTML source. */
-const USER = ["Rat", "Pack", "events"].join("");
-const HOST = ["yahoo", "com"].join(".");
+const USER = ["in", "fo"].join("");
+const HOST = ["goldenyearsexpress", "org"].join(".");
 
 export function emailAddress() {
   return `${USER}\u0040${HOST}`;
