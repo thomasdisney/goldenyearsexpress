@@ -78,6 +78,5 @@ export const letter = {
   from: [
     "“Golden Years Express”",
     "Bob Caudle & Sherri-Lynn Laboissonniere",
-    "Rat Pack Events",
   ],
 } as const;

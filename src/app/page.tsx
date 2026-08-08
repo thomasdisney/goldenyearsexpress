@@ -85,13 +85,6 @@ export default function HomePage() {
                   <br />
                 </span>
               ))}
-              <a href={site.phoneHref}>{site.phone}</a>
-              <br />
-              <ProtectedEmail subject={site.emailSubject} />
-              <br />
-              <a href={site.sibling.url} rel="noopener noreferrer">
-                RatPackEvents.com
-              </a>
             </p>
           </article>
         </div>
