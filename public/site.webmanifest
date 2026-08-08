@@ -1,0 +1,14 @@
+{
+  "name": "The Golden Years Express",
+  "short_name": "Golden Years Express",
+  "description": "Rat Pack entertainment by rail for senior communities and veterans. Call or text 530-608-9324.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0c",
+  "theme_color": "#0a0a0c",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}
