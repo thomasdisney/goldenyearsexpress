@@ -11,7 +11,7 @@ export function Header() {
           <span className="brand-mark">GOLDEN YEARS EXPRESS</span>
           <span className="brand-sub">Rat Pack on the Rails</span>
         </a>
-        <nav aria-label="On this page" className="nav-scroll">
+        <nav aria-label="Main" className="nav-scroll">
           <ul className="nav-links">
             <li>
               <a className="nav-link" href="#letter">
@@ -31,6 +31,15 @@ export function Header() {
             <li>
               <a className="nav-link" href="#contact">
                 Contact
+              </a>
+            </li>
+            <li>
+              <a
+                className="nav-link"
+                href={site.sibling.url}
+                rel="noopener noreferrer"
+              >
+                Rat Pack Events
               </a>
             </li>
           </ul>

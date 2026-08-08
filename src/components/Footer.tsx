@@ -14,7 +14,7 @@ export function Footer() {
         </p>
         <div className="footer-links">
           <a href={site.sibling.url} rel="noopener noreferrer">
-            {site.sibling.name}
+            RatPackEvents.com
           </a>
           <a href={site.deanoholics.url} rel="noopener noreferrer">
             {site.deanoholics.name}
