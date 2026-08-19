@@ -14,7 +14,7 @@ export default function HomePage() {
       <section className="hero">
         <div className="wrap hero-grid">
           <div className="hero-copy">
-            <p className="hero-eyebrow">Partnership opportunity · Rat Pack Events</p>
+            <p className="hero-eyebrow">Partnership opportunity · Rat Pack Events &amp; Tribute Artists</p>
             <h1 className="hero-title">THE GOLDEN YEARS EXPRESS</h1>
             <p className="hero-lead">{heroLead}</p>
             <div className="btn-row">
@@ -73,6 +73,9 @@ export default function HomePage() {
             </ul>
 
             <p>{letter.audience}</p>
+            <p>
+              <strong>{letter.budgetNote}</strong>
+            </p>
             {letter.closing.map((p) => (
               <p key={p.slice(0, 48)}>{p}</p>
             ))}

@@ -6,7 +6,7 @@ export const site = {
   baseURL: "https://www.goldenyearsexpress.org",
   emailSubject: "Partnership Opportunity – The Golden Years Express",
   sibling: {
-    name: "Rat Pack Events",
+    name: "Rat Pack Events & Tribute Artists",
     url: "https://www.ratpackevents.com",
     blurb: "The Martin & Monroe Show, The Dean-O-Holics, and more",
   },
@@ -69,6 +69,8 @@ export const letter = {
   ],
   audience:
     "Whether you represent a Chamber of Commerce, a local business, a retirement community organization, an Elks Lodge, a hotel, a rental car company, or you are a private individual who simply cares about seniors (or has parents or loved ones in these communities), we would be grateful for your involvement at any level.",
+  budgetNote:
+    "If you are a retirement home, community, or VA / veteran program with little or no budget, please reach out to us — you are who we are looking for.",
   closing: [
     "This project is about more than entertainment. It is about connection, dignity, and bringing moments of happiness to people who often receive very little of either.",
     "If this speaks to you, we would love to talk. Please email or call us at 530-608-9324. We are happy to share more details, answer questions, or discuss how you might participate.",
