@@ -3,6 +3,7 @@ import { Cinzel, Source_Serif_4 } from "next/font/google";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { StickyCtaBar } from "@/components/StickyCtaBar";
+import { PageviewBeacon } from "@/components/PageviewBeacon";
 import { site } from "@/data/content";
 import "./globals.css";
 
@@ -83,6 +84,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           } as React.CSSProperties
         }
       >
+        <PageviewBeacon />
         <div className="shell">
           <Header />
           <main className="main" id="main-content">
